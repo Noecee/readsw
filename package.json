@@ -1,12 +1,12 @@
 {
-  "name": "readsw",
+  "name": "yoh",
   "version": "1.0.0",
-  "description": "Script untuk membuat auto read status WhatsApp make baileys",
+  "description": "yoh",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "pm2": "pm2 start index.js --name hisoka -- --max-old-space-size=8192",
+    "pm2": "pm2 start index.js",
     "restart:pm2": "pm2 restart hisoka",
     "stop:pm2": "pm2 stop hisoka"
   },
@@ -14,10 +14,10 @@
     "autoreadsw",
     "baileys"
   ],
-  "author": "Dika Ardnt.",
-  "license": "MIT",
+  "author": "yoh.",
+  "license": "ISC",
   "dependencies": {
-    "@whiskeysockets/baileys": "github:WhiskeySockets/Baileys",
+    "@whiskeysockets/baileys": "npm:@whiskeysockets/baileys@latest",
     "dotenv": "^16.3.1",
     "file-type": "^18.6.0",
     "fluent-ffmpeg": "^2.1.2",
